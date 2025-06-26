@@ -12,10 +12,22 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  align-items: center;
   display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 8px;
 }
 
+.right-header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.left-header {
+  display: flex;
+  margin-right: auto;
+}
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -49,4 +61,5 @@ ul {
   list-style-type: none;
   display: flex;
   align-items: flex-start;
+  gap: 8px;
 }
