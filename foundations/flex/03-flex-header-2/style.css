@@ -16,17 +16,17 @@ body {
   flex: 1;
   align-items: center;
   padding: 8px;
+  justify-content: space-between;
 }
 
 .right-header {
   display: flex;
-  justify-content: flex-end;
-  gap: 8px;
+  gap: 16px;
 }
 
 .left-header {
   display: flex;
-  margin-right: auto;
+  gap: 16px;
 }
 .profile-image {
   background: rebeccapurple;
@@ -60,6 +60,6 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  align-items: flex-start;
   gap: 8px;
+  padding-left: 8px;
 }
